@@ -1,7 +1,6 @@
 
 const menuItems = document.querySelectorAll('.menu-item');
 
-// LocalStorage dan saqlangan bo'limni olish va tiklash
 window.addEventListener('DOMContentLoaded', () => {
     const selectedMenuItem = localStorage.getItem('selectedMenu');
     
@@ -10,27 +9,25 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Menyu elementlari uchun hodisalar qo'shish
 menuItems.forEach(item => {
     item.addEventListener('click', () => {
-        // Avvalgi tanlangan elementdan 'selected' klassini olib tashlash
+
         document.querySelector('.menu-item.selected')?.classList.remove('selected');
         
-        // Tanlangan elementga 'selected' klassini qo'shish
+
         item.classList.add('selected');
         
-        // Tanlangan elementni LocalStorage da saqlash
+
         localStorage.setItem('selectedMenu', item.id);
     });
 });
-// onclik
 const toggle = document.getElementById('darkModeToggle');
 
         toggle.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
  });
 
-//  chatjs
+
 const ctx = document.getElementById('financesChart').getContext('2d');
 
 const financesChart = new Chart(ctx, {

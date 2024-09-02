@@ -47,8 +47,6 @@ const myChart = new Chart(ctx, {
 
 
 const menuItems = document.querySelectorAll('.menu-item');
-
-// LocalStorage dan saqlangan bo'limni olish va tiklash
 window.addEventListener('DOMContentLoaded', () => {
     const selectedMenuItem = localStorage.getItem('selectedMenu');
     
@@ -57,16 +55,15 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Menyu elementlari uchun hodisalar qo'shish
 menuItems.forEach(item => {
     item.addEventListener('click', () => {
-        // Avvalgi tanlangan elementdan 'selected' klassini olib tashlash
+    
         document.querySelector('.menu-item.selected')?.classList.remove('selected');
         
-        // Tanlangan elementga 'selected' klassini qo'shish
+
         item.classList.add('selected');
         
-        // Tanlangan elementni LocalStorage da saqlash
+    
         localStorage.setItem('selectedMenu', item.id);
     });
 });
@@ -76,7 +73,7 @@ menuItems.forEach(item => {
 const ctxx = document.getElementById('myCircleChart').getContext('2d');
 
 const myCircleChart = new Chart(ctxx, {
-    type: 'doughnut', // Use 'pie' for a pie chart
+    type: 'doughnut', /
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple'],
         datasets: [{
