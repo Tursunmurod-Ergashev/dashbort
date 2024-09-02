@@ -73,7 +73,7 @@ menuItems.forEach(item => {
 const ctxx = document.getElementById('myCircleChart').getContext('2d');
 
 const myCircleChart = new Chart(ctxx, {
-    type: 'doughnut', /
+    type: 'doughnut', 
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple'],
         datasets: [{
