@@ -1,0 +1,114 @@
+:root{
+    --color-green: #0AC60A;
+    --color-black: #4B4B4C;
+    --color-mingreen: #eeffee;
+    --color-wite: #FFFFFF;
+    --color-maxgreen: #1A9A1A;
+    --color-yelov: #567B56;
+    --color-minyelov: #7B417B;
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-text{
+font-size: 18px;
+font-weight: 600;
+color: var(--color-minyelov);
+}
+.employees-sublist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    border: 1px solid #0AC60A;
+    padding: 22px 18px;
+     border-radius: 8.76px;
+}
+.employees-sublist>div{
+    display: flex;
+    
+}
+.employeers-title{
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin: 32px 24px;
+}
+.employees-sublists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    border-radius: 8.76px;
+    border: 1px solid #0AC60A;
+    padding: 22px 18px;
+    margin: 0px 11px;
+}
+.employees-sublists>div{
+    display: flex;
+}
+.employees-maxlist{
+    display: flex;
+}
+.employees-maxlist{
+    display: flex;
+    justify-content: flex-end;
+}
+.action-title{
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--color-green);
+    padding-top: 10px;
+}
+.action-text{
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color-black);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.action-subtitle{
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color-black);  
+    padding-left: 8.6px;
+}
+.action-img{
+    width: 15px;
+}
+.action-subimg{
+    width: 40px;
+}
+.action-sublist{
+    display: flex;
+    align-items: center;
+    padding: 13.2px 0px;
+    margin-top: 20px;
+}
+.employeers-action{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-wite);
+    background: linear-gradient(to bottom, #e5f9e5 5%, white 2%);
+    border-top-left-radius: 8.76px;
+    border-top-right-radius: 8.76px;
+    margin: 30px 27px;
+   padding: 0px 24px;
+
+}
+.action-sublistd{
+    padding: 2px 0px;
+    margin-top: 20px;
+}
+.action-minlisted{
+   padding: 18px 0px;
+   margin-top: 20px;
+}

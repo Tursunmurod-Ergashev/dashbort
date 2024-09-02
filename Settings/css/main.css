@@ -1,0 +1,126 @@
+:root{
+    --color-green: #0AC60A;
+    --color-black: #4B4B4C;
+    --color-mingreen: #eeffee;
+    --color-wite: #FFFFFF;
+    --color-maxgreen: #1A9A1A;
+    --color-yelov: #567B56;
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.setingis-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-black);
+}
+.setingis-link{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.setingis-subtitle{
+font-size: 34px;
+font-weight: 600;
+color: var(--color-black);
+}
+ input{
+ border: none;
+  outline: none;
+}
+.setingis-input{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-black);
+  background: none;
+  padding-left: 10px;
+  width: 100%;
+ 
+}
+.setingis-items{
+    padding-top: 15px;
+}
+
+.setingis-form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #4B4B4C;
+    padding: 20px 25px;
+    border-radius: 8.62px;
+   margin-top: 27px;
+}
+.setingis-item{
+    padding: 30px 10px;
+    transition: 0.7s;
+}
+.setingis-left{
+    width: 50%;
+    padding: 36px 25px;
+}
+.subsetingis-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+.subsetingis-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-black);
+    padding-top: 18px;
+}
+.subsetingis-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-black);
+}
+.subsetingis-subtext{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-black);
+    padding-top: 4px;
+}
+.subsetingis-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.subsetingis-minlist{
+    display: flex;
+    align-items: center;
+}
+.subsetingis-sublist{
+    padding-left: 31px;
+}
+.main-subsetingis{
+    width: 50%;
+    padding: 54px 20px;
+   
+}
+.main-setingis{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-wite);
+    margin: 33px 20px;
+    border-radius: 8.62px;
+}
+
+.main-text{
+    height: 1057px;
+    border: 0.54px solid #e6e7e7
+}
+.setingis-item:hover{
+    border-right: 7.01px solid #0AC60A;
+    background-color: #e2fae2;
+    transition: 0.7s;
+    border-radius: 8.18px;
+}

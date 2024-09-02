@@ -1,0 +1,131 @@
+:root{
+    --color-green: #0AC60A;
+    --color-black: #4B4B4C;
+    --color-mingreen: #eeffee;
+    --color-wite: #FFFFFF;
+    --color-maxgreen: #1A9A1A;
+    --color-yelov: #567B56;
+    --color-minyelov: #7B417B;
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.action-subtitle{
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--color-green);
+}
+.action-sublists{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.action-sublists>img{
+   padding-left: 10px;
+}
+.action-png{
+    width: 20px;
+}
+.heath-sublistd{
+    padding-top: 27px;
+}
+.heath-img{
+    width: 50px;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.health-input{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-black);
+    padding-left: 10px;
+    width: 80%;
+    
+}
+.health-img{
+    width: 30px;
+}
+.health-form{
+    display: flex;
+    align-items: center;
+    border: 1px solid #0AC60A;
+    width: 60%;
+    padding: 14px 25px;
+    border-radius: 8.76px;
+    
+}
+.main-health{
+    margin-top: 33px;
+}
+.health-btn{
+    border: none;
+    border: 1px solid #0AC60A;
+    padding: 14px 40px;
+    border-radius: 8.76px;
+    background: var(--color-green);
+    color: var(--color-wite);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0pc 12px;
+
+}
+.health-title{
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+.health-sublist{
+    display: flex;
+    
+}
+.health-list{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.health-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-black);
+    text-align: center;
+    
+}
+.health-text{
+    width: 47.92px;
+    height: 2px;
+    background-color: var(--color-wite); 
+}
+.health-subtext{
+    width: 180px;
+    height: 2px;
+    background-color: var(--color-wite); 
+}
+
+
+.health-items{
+    display: flex;
+    padding-top: 60px;
+}
+.health-item{
+    padding: 10px 30px;
+}
+.health-item:hover .health-text{
+   
+    background-color: var(--color-green);
+    transition: 0.5s; 
+}
+.health-item:hover .health-subtext{
+   
+    background-color: var(--color-green);
+    transition: 0.5s; 
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/Dashboard/css/main.css">
+    <link rel="stylesheet" href="/Analytics/css/main.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="topbar">
+            <img src="/Dashboard/images/ferma.png" alt="">
+            <div class="topbar-list">
+                <img src="/Dashboard/images/bens.png" alt="">
+                <img class="topbar-img" src="/Dashboard/images/male.png" alt="">
+                <img src="/Dashboard/images/stril.png" alt="">
+            </div>
+        </header>
+        <!-- sidebar -->
+        <aside class="sidebar">
+
+            <nav class="menu">
+                <ul>
+                    <li id="dashboard" class="menu-item">
+                        <a class="menu-link" href="/Dashboard/index.html">
+                            <img class="menu-img" src="/Dashboard/images/vektor1.png" alt="">
+                            <h1 class="menu-title">Dashboard</h1>
+                        </a>
+                    </li>
+
+                </ul>
+                <ul>
+                    <li id="Patients management" class="menu-item">
+                        <a class="menu-link" href="#">
+                            <img class="menu-img" src="/Dashboard/images/vektor2.png" alt="">
+                            <h1 class="menu-title">Patients management</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Appointments" class="menu-item">
+                        <a class="menu-link" href="#">
+                            <img class="menu-img" src="/Dashboard/images/vektor3.png" alt="">
+                            <h1 class="menu-title">Appointments</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Transactions" class="menu-item">
+                        <a class="menu-link" href="/Transactions/index.html">
+                            <img class="menu-img" src="/Dashboard/images/vektor4.png" alt="">
+                            <h1 class="menu-title">Transactions</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Employers" class="menu-item">
+                        <a class="menu-link" href="/Employees/index.html">
+                            <img class="menu-img" src="/Dashboard/images/vektor5.png" alt="">
+                            <h1 class="menu-title">Employers</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Health records" class="menu-item">
+                        <a class="menu-link" href="/Health records/index.html">
+                            <img class="menu-img" src="/Dashboard/images/vektor6.png" alt="">
+                            <h1 class="menu-title">Health records</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Analytics" class="menu-item">
+                        <a class="menu-link" href="#">
+                            <img class="menu-img" src="/Dashboard/images/vektor7.png" alt="">
+                            <h1 class="menu-title">Analytics</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Help & Support" class="menu-item">
+                        <a class="menu-link" href="#">
+                            <img class="menu-img" src="/Dashboard/images/vektor8.png" alt="">
+                            <h1 class="menu-title">Help & Support</h1>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+
+                <ul>
+                    <li id="Profile" class="menu-item">
+                        <a class="menu-link" href="#">
+                            <img class="menu-img" src="/Dashboard/images/vektor9.png" alt="">
+                            <h1 class="menu-title">Profile</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Settings" class="menu-item">
+                        <a class="menu-link" href="/Settings/index.html">
+                            <img class="menu-img" src="/Dashboard/images/vektor10.png" alt="">
+                            <h1 class="menu-title">Settings</h1>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li id="Log Out" class="menu-item">
+                        <a class="menu-link" href="#">
+                            <img class="menu-img" src="/Dashboard/images/vektor11.png" alt="">
+                            <h1 class="menu-title">Log Out</h1>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-list">
+                <label class="label" for="darkModeToggle">Dark Mode</label>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider"></span>
+            </div>
+
+            </label>
+        </aside>
+
+        <!-- main -->
+        <main class="main">
+            <h1 class="main-title">Analytics</h1>
+            
+            <div class="chart-maxlist">
+                <div class="chart-container">
+                    <div class="header">
+                       <div class="header-list">
+                        <h2 class="header-title">Statistics to date</h2>
+                        <div class="header-sublist">
+                            <img src="/Analytics/img/image.png" alt="">
+                            <p class="header-text">Year <span> 2023</span></p>
+                        </div>
+                       </div>
+                        <div class="legend">
+                            <div><span>PERSONNEL</span> <br> #300 Million</div>
+                            <div><span>SUPPLIES</span> <br> #34 Million</div>
+                            <div><span>UTILITIES</span> <br> #18 Million</div>
+                        </div>
+                        <img src="/Analytics/img/Frame 237900.png" alt="">
+    
+                    </div>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="chart-containers">
+                    <div class="patent-list">
+                        <h1 class="patent-title">Patient Demographics</h1>
+                        <img src="/Analytics/img/Frame 237911.png" alt="">
+                    </div>
+                    <canvas id="myCircleChart"></canvas>
+
+                </div>
+            </div>
+
+            <div class="main-admin">
+               <div class="admin-left">
+                <h1 class="admin-title">Admission and Discharge Rates</h1>
+                <div class="admin-list">
+                    <div class="admin-sublist">
+                        <h1 class="admin-subtitle">Date</h1>
+                        <div class="admin-minlist">
+                            <p class="admin-text">Sep 9, 2023</p>
+                            <p class="admin-text">Sep 9, 2023</p>
+                            <p class="admin-text">Sep 9, 2023</p>
+                            <p class="admin-text">Sep 9, 2023</p>
+                            <p class="admin-text">Sep 9, 2023</p>
+                            <p class="admin-text">Sep 9, 2023</p>
+                            <p class="admin-text">Sep 9, 2023</p>
+                        </div>
+                    </div>
+                    <div class="admin-sublist">
+                        <h1 class="admin-subtitle">Total Admissions</h1>
+                        <div class="admin-minlist">
+                            <p class="admin-text">123</p>
+                            <p class="admin-text">123</p>
+                            <p class="admin-text">123</p>
+                            <p class="admin-text">123</p>
+                            <p class="admin-text">123</p>
+                            <p class="admin-text">123</p>
+                            <p class="admin-text">123</p>
+                        </div>
+                    </div>
+                    <div class="admin-sublist">
+                        <h1 class="admin-subtitle">Total Discharges</h1>
+                        <div class="admin-minlist">
+                            <p class="admin-text">00023</p>
+                            <p class="admin-text">00023</p>
+                            <p class="admin-text">00023</p>
+                            <p class="admin-text">00023</p>
+                            <p class="admin-text">00023</p>
+                            <p class="admin-text">00023</p>
+                            <p class="admin-text">00023</p>
+                        </div>
+                    </div>
+                    <div class="admin-sublist">
+                        <h1 class="admin-subtitle">status</h1>
+                        <div class="admin-minlist">
+                            <p class="admin-text">Confirmed</p>
+                            <p class="admin-text">Confirmed</p>
+                            <p class="admin-text">Confirmed</p>
+                            <p class="admin-text">Confirmed</p>
+                            <p class="admin-text">Confirmed</p>
+                            <p class="admin-text">Confirmed</p>
+                            <p class="admin-text">Confirmed</p>
+                        </div>
+                    </div>
+                    <div class="admin-sublist">
+                        <h1 class="admin-subtitle">Average Length of Stay</h1>
+                        <div class="admin-minlist">
+                            <p class="admin-text">3.5 days</p>
+                            <p class="admin-text">3.5 days</p>
+                            <p class="admin-text">3.5 days</p>
+                            <p class="admin-text">3.5 days</p>
+                            <p class="admin-text">3.5 days</p>
+                            <p class="admin-text">3.5 days</p>
+                            <p class="admin-text">3.5 days</p>
+                        </div>
+                    </div>
+                    <div class="admin-sublist">
+                        <h1 class="admin-subtitle">Net Admission Change</h1>
+                        <div class="admin-minlist">
+                            <p class="admin-text">+10</p>
+                            <p class="admin-text">+10</p>
+                            <p class="admin-text">+10</p>
+                            <p class="admin-text">+10</p>
+                            <p class="admin-text">+10</p>
+                            <p class="admin-text">+10</p>
+                            <p class="admin-text">+10</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="admin-right">
+                    <div class="admin-rlist">
+                        <h1 class="rlist-title">Equipment Utilization</h1>
+                        <img src="/Analytics/img/Frame 237911.png" alt="">
+                    </div>
+                    <div class="rlist-maxlist">
+                        <img src="/Analytics/img/Vector.png" alt="">
+                        <div class="rlist-minlist">
+                            <h1 class="rlist-subtitle">Lorem ipsum</h1>
+                            <p class="rlist-text">Learn more about our credit cards </p>
+                        </div>
+                    </div>
+                    <div class="rlist-maxlist">
+                        <img src="/Analytics/img/Vector.png" alt="">
+                        <div class="rlist-minlist">
+                            <h1 class="rlist-subtitle">Lorem ipsum</h1>
+                            <p class="rlist-text">Learn more about our credit cards </p>
+                        </div>
+                    </div>
+                    <div class="rlist-maxlist">
+                        <img src="/Analytics/img/Vector.png" alt="">
+                        <div class="rlist-minlist">
+                            <h1 class="rlist-subtitle">Lorem ipsum</h1>
+                            <p class="rlist-text">Learn more about our credit cards </p>
+                        </div>
+                    </div>
+                    <div class="rlist-maxlist">
+                        <img src="/Analytics/img/Vector.png" alt="">
+                        <div class="rlist-minlist">
+                            <h1 class="rlist-subtitle">Lorem ipsum</h1>
+                            <p class="rlist-text">Learn more about our credit cards </p>
+                        </div>
+                    </div>
+                    <div class="rlist-maxlist">
+                        <img src="/Analytics/img/Vector.png" alt="">
+                        <div class="rlist-minlist">
+                            <h1 class="rlist-subtitle">Lorem ipsum</h1>
+                            <p class="rlist-text">Learn more about our credit cards </p>
+                        </div>
+                    </div>
+                    <div class="rlist-maxlist">
+                        <img src="/Analytics/img/Vector.png" alt="">
+                        <div class="rlist-minlist">
+                            <h1 class="rlist-subtitle">Lorem ipsum</h1>
+                            <p class="rlist-text">Learn more about our credit cards </p>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            
+
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="/Analytics/js/main.js"></script>
+</body>
+
+</html>
