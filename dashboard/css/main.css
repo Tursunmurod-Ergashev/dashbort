@@ -45,7 +45,7 @@
 }
 .main{
     background: var(--color-mingreen);
-   width: 96.3%;
+    width: 96.3%;
    margin-left: 60px;
   
 }
@@ -435,7 +435,7 @@ height: 364px;
 .donut-text{
     position: absolute;
     top: 59%;
-    left: 30%;
+    left: 28.5%;
     font-size: 17px;
     font-weight: 700;
     color: var(--color-wite);
@@ -443,7 +443,7 @@ height: 364px;
 .donut-desc{
     position: absolute;
     top: 30%;
-    left: 66%;
+    left: 67%;
     font-size: 17px;
     font-weight: 700;
     color: var(--color-wite);
@@ -455,6 +455,25 @@ height: 364px;
     font-size: 17px;
     font-weight: 700;
     color: var(--color-black);
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1140px) {
+    .menu{
+        display: none;
+        flex-direction: column;
+    }
+    .hamburger {
+        display: block;
+    }
+    .sidebar-list{
+        display: none;
+    }
+   
+
 }
 
 

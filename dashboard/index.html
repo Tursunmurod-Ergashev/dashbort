@@ -22,9 +22,10 @@
             </div>
         </header>
         <!-- aside -->
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
         <aside class="sidebar">
-
-            <nav class="menu">
+           <div id="maxlist" class="maxlist">
+            <nav id="menu" class="menu">
                 <ul>
                     <li id="dashboard" class="menu-item">
                         <a class="menu-link" href="">
@@ -34,7 +35,7 @@
                     </li>
 
                 </ul>
-                <ul>
+                <ul id="items" class="items">
                     <li id="Patients management" class="menu-item">
                         <a class="menu-link" href="#">
                             <img class="menu-img" src="/dashboard/images/vektor2.png" alt="">
@@ -123,6 +124,7 @@
                     <input type="checkbox" id="darkModeToggle">
                     <span class="slider"></span>
             </div>
+           </div>
 
             </label>
         </aside>
@@ -330,6 +332,9 @@
             </div>
            </div>
         </main>
+
+
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="/dashboard/js/main.js"></script>
