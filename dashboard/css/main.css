@@ -64,7 +64,6 @@
 .sidebar {
    margin-left: 10px;
    margin-top: 41px;
-  
 }
 
 .menu-link{
@@ -148,7 +147,10 @@ input:checked + .slider:before {
    padding-left: 15px;
    
 }
-
+.main {
+    overflow-y: scroll;
+    height: 100vh;
+}
 .main-title{
     font-size: 34px;
     font-weight: 600;
