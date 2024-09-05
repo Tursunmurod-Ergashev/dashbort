@@ -112,3 +112,65 @@ color: var(--color-minyelov);
    padding: 18px 0px;
    margin-top: 20px;
 }
+@media(max-width:1300px){
+ .employees-sublist{
+    width: 200px;
+ } 
+ .employees-sublists{
+    width: 150px;
+ }
+ .employees-text{
+    font-size: 13px;
+ }
+ .employees-subtext{
+    font-size: 13px;
+ }
+ .employeers-img{
+    width: 10%;
+ }
+ .action-img{
+    width: 10px;
+ }
+ .action-title{
+    font-size: 12px;
+ }
+ .action-subtitle{
+    font-size: 10px;
+ }
+ .action-text{
+    font-size: 15px;
+ }
+}
+@media(max-width:800px){
+.action-text{
+    font-size: 10px;
+}
+.action-text{
+    padding: 25px 0px;
+}
+.action-sublistd>img{
+    width: 60px;
+    margin-top: 20px;
+}
+}
+@media(max-width:600px){
+    .action-text{
+        font-size: 10px;
+    }
+    .action-text{
+        padding: 25px 0px;
+    }
+    .action-sublistd>img{
+        width: 60px;
+        margin-top: 20px;
+    }
+    .action-subimg{
+        width: 30px;
+    }
+    .action-img{
+        display: none;
+    }
+    .action-title{
+        font-size: 8px;
+    }
+    }

@@ -16,6 +16,9 @@
     text-decoration: none;
     list-style: none;
 }
+.grid-container{
+    margin: 0 auto;
+}
 
 
 .grid-container {
@@ -91,6 +94,18 @@
     cursor: pointer;
     border-radius: 5px;
     width: 280px;  
+    transition: 0.7s;
+}
+.menu-item:hover{
+    background-color: #00c400;
+    color: #fff; 
+    transition: 0.7s;
+    .menu-title{
+        color: var(--color-wite);
+       }
+    .menu-img{
+        filter: grayscale(100%) brightness(10);
+       }
 }
 .menu-item.selected {
     background-color: #00c400;
@@ -483,12 +498,129 @@ height: 364px;
     .hamburger {
         display: block;
     }
-    .sidebar-list{
-        display: none;
-    }
-   
+   .grid-container{
+    grid-template-areas: 
+    "topbar"
+    "main"
+    "sidebar";
+grid-template-columns: 4fr;
+grid-template-rows: 60px 1fr auto;
+   }
+   .sidebar {
+    padding: 10px;
+}
+.main-text{
+     font-size: 15px;
+}
+.main-subtitle{
+    font-size: 20px;
+}
+.main-subtext{
+    font-size: 15px;
+}
+.right-title{
+    font-size: 13px;
+}
+.right-desc{
+    font-size: 10px;
+    padding-top: 30px;
+}
+.right-title{
+    font-size: 10px;
+}
+.footers-subtitle{
+    font-size: 10px;
+}
+.footers-text{
+    font-size: 10px;
+}
+.minlist-text{
+    font-size: 10px;
+}
+.minlist-sublist>img{
+    width: 30px;
+}
+.minlist-subdesc{
+    font-size: 10px;
+}
+.minlist>img{
+    width: 15px;
+}
 
 }
+@media(max-width:900px){
+    .main-maxlist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-footer{
+        width: 100%;
+    }
+    .main-foters{
+        width: 100%;
+       margin-top: 15px;
+    }
+    .main{
+        margin-left: 12px;
+    }
+   
+}
+@media(max-width:700px){
+    .chart-maxlist{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .chart-minlist{
+        width: 100%;
+    }
+    .content-maxlist{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .main-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+    }
+    .main-sublist{
+        width: 90%;
+        margin: 15px 0px;
+    }
+}
+@media(max-width:600px){
+ .topbar-subimg{
+    width: 30%;
+ }
+ .topbar-img{
+    width: 60%;
+ }
+ .right-subtitle{
+    font-size: 7px;
+ }
+ .right-desc{
+    font-size: 9px;
+ }
+ .right-title{
+    font-size: 7px;
+ }
+ .right-sublist{
+   
+ }
+ .right-link{
+    font-size: 7px;
+ }
+ .left-title{
+    font-size: 10px;
+ }
+
+}
+
 
 
 

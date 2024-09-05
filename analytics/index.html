@@ -15,7 +15,7 @@
 <body>
     <div class="grid-container">
         <header class="topbar">
-            <img src="/dashboard/images/ferma.png" alt="">
+            <img class="topbar-subimg" src="/dashboard/images/ferma.png" alt="">
             <div class="topbar-list">
                 <img class="topbar-png"  src="/dashboard/images/bens.png" alt="">
                 <img class="topbar-img" src="/dashboard/images/male.png" alt="">
@@ -23,9 +23,10 @@
             </div>
         </header>
         <!-- sidebar -->
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
         <aside class="sidebar">
 
-            <nav class="menu">
+            <nav id="menu" class="menu">
                 <ul>
                     <li id="dashboard" class="menu-item">
                         <a class="menu-link" href="/dashboard/index.html">
@@ -147,7 +148,7 @@
                             <div><span>SUPPLIES</span> <br> #34 Million</div>
                             <div><span>UTILITIES</span> <br> #18 Million</div>
                         </div>
-                        <img src="/analytics/img/Frame 237900.png" alt="">
+                        <img class="legend-img" src="/analytics/img/Frame 237900.png" alt="">
     
                     </div>
                     <canvas id="myChart"></canvas>
